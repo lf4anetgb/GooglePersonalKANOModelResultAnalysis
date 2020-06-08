@@ -181,9 +181,9 @@ function show(spreadsheet, yEnd, questionsStatus, questionsOkSeat, questionsWinn
   
 //  顯示初始化
   yEnd++;
-  spreadsheet.getRange('B' + yEnd).setValue('E');
+  spreadsheet.getRange('B' + yEnd).setValue('A');
   spreadsheet.getRange('C' + yEnd).setValue('M');
-  spreadsheet.getRange('D' + yEnd).setValue('L');
+  spreadsheet.getRange('D' + yEnd).setValue('O');
   spreadsheet.getRange('E' + yEnd).setValue('R');
   spreadsheet.getRange('F' + yEnd).setValue('I');
   spreadsheet.getRange('G' + yEnd).setValue('Q');
